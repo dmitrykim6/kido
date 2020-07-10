@@ -1,14 +1,166 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+    "minimumSumOrder": 0,
+    "deliveryRules": [
+        {
+            "id": "001",
+            "name": "Курьерская доставка в Алматы за пределами квадрата",
+            "imageUrl": "http://navat.kg/image.png",
+            "price": 100,
+            "freeFrom": 1000,
+            "coordinates": [
+                {
+                    "lat": "73.000002",
+                    "long": "51.00002"
+                },
+                {
+                    "lat": "73.000001",
+                    "long": "51.00001"
+                },
+                {
+                    "lat": "73.000001",
+                    "long": "51.00001"
+                },
+                {
+                    "lat": "73.000001",
+                    "long": "51.00001"
+                }
+            ]
+        },
+        {
+            "id": "002",
+            "name": "Курьерская доставка за городом",
+            "imageUrl": "http://navat.kg/image.png",
+            "price": 100,
+            "freeFrom": 1000,
+            "coordinates": [
+                {
+                    "lat": "73.000002",
+                    "long": "51.00002"
+                },
+                {
+                    "lat": "73.000001",
+                    "long": "51.00001"
+                },
+                {
+                    "lat": "73.000001",
+                    "long": "51.00001"
+                },
+                {
+                    "lat": "73.000001",
+                    "long": "51.00001"
+                }
+            ]
+        },
+        {
+            "id": "003",
+            "name": "Курьерская доставка в Алматы внутри квадрата",
+            "imageUrl": "http://navat.kg/image.png",
+            "price": 0,
+            "freeFrom": 0,
+            "coordinates": [
+                {
+                    "lat": "73.000001",
+                    "long": "51.00001"
+                },
+                {
+                    "lat": "73.000001",
+                    "long": "51.00001"
+                },
+                {
+                    "lat": "73.000001",
+                    "long": "51.00001"
+                },
+                {
+                    "lat": "73.000001",
+                    "long": "51.00001"
+                }
+            ]
+        },
+        {
+            "id": "004",
+            "name": "Курьерская доставка Заказ.кг",
+            "imageUrl": "http://navat.kg/image.png",
+            "costPerKm": 5,
+            "startCost": 120
+        }
+    ],
+    "paymentsVariants": [
+        {
+            "id": "01",
+            "title": "Оплата наличными курьеру",
+            "imageUrl": "http://navat.kg/image.png"
+        },{
+            "id": "02",
+            "title": "Оплата картой курьеру",
+            "imageUrl": "http://navat.kg/image.png"
+        },{
+            "id": "03",
+            "title": "Оплата картой",
+            "imageUrl": "http://navat.kg/image.png"
+        }
+    ],
+    "linksToDocs": [
+        {
+            "title": "Как заказать?",
+            "link": "https://google.com"
+        },
+        {
+            "title": "Как оплатить?",
+            "link": "https://google.com"
+        },
+        {
+            "title": "О нас",
+            "link": "https://google.com"
+        },
+        {
+            "title": "Скидки",
+            "link": "https://google.com"
+        },
+        {
+            "title": "Публичная оферта",
+            "link": "https://google.com"
+        }
+    ],
+    "socialProfiles": {
+        "facebook": "https://facebook.com",
+        "instagram": "https://instagram.com",
+        "whatsapp": "https://whatsapp.com",
+        "telegram": "https://t.me",
+        "vk": "https://vk.com"
+    },
+    "callCenter": "+996000000000",
+    "branches": [
+        {
+            "title": "Филиал 1",
+            "address": "Советская 1",
+            "phone": "+996 312 000000",
+            "workDays": "Пн-Сб",
+            "workTime": "8:00 - 21:00",
+            "coordinates": {
+                "lat": "73.000001",
+                "long": "51.00001"
+            },
+            "photoUrls": [
+                "https://",
+                "https://",
+                "https://"
+            ]
+        },
+        {
+            "title": "Филиал 2",
+            "address": "Советская 2",
+            "phone": "+996 312 000002",
+            "workDays": "Каждый день",
+            "workTime": "8:00 - 21:00",
+            "coordinates": {
+                "lat": "73.000001",
+                "long": "61.00001"
+            },
+            "photoUrls": [
+                "https://",
+                "https://",
+                "https://"
+            ]
+        }
+    ]
 }
